@@ -1,0 +1,41 @@
+Instalções no venv:
+py -m pip install Django
+
+
+Criar ambiente virtual
+python -m venv nome_ambiente(padrao é env)
+Joao usa isso pra nao dar erro de compatibilidade: python -m venv env_jp
+Ativar ambiente virtual (powershell)
+.nome\scripts\activate ou \nome\scripts\activate ou .\nome\Scripts\activate 
+Ativar powershell (jogar isso nele)
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+
+Comandos uteis
+Criar projeto:
+Verificar instalação:
+django-admin --version3
+python -m django --version
+pip freeze
+Colocar cor no terminal: py -m pip install "colorama >= 0.4.6"
+Tirar cor do terminal: defina a variável ambiental DJANGO_COLORS como nocolor.
+
+GIT: 
+git status (verifica estado)
+git add . (adicionar todos os arquivos)
+git add nome_do_arquivo.ext (especifico)
+git commit -m "Descrição das alterações realizadas"
+git push origin main (enviar)
+
+
+Anotação gabi
+.\env\Scripts\activate 
+pc:env 
+note:myenv
+
+
+Anotaçao jao:
+pra vc clonar o projeto faz assim
+git clone https://github.com/seu-usuario/easytask.git
+cd easytask
+e ativa o ambiente virtual
