@@ -19,7 +19,8 @@ python -m django --version
 pip freeze
 Colocar cor no terminal: py -m pip install "colorama >= 0.4.6"
 Tirar cor do terminal: defina a variável ambiental DJANGO_COLORS como nocolor.
-
+Testar servidor: python .\manage.py runserver
+Criar aplicativo polls (enquetes): python manage.py startapp polls
 GIT: 
 git status (verifica estado)
 git add . (adicionar todos os arquivos)
